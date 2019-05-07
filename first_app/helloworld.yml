@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: k8s-demo
-    - image: crccheck/hello-world
-    - ports:
+      image: crccheck/hello-world
+      ports:
       - containerPort: 8000
